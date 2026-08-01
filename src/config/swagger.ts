@@ -12,7 +12,12 @@ const swaggerDefinition = {
       url: "http://localhost:5000",
       description: "Local development server",
     },
-  ],
+    {
+      url: "https://medical-appointment-system-production-3a81.up.railway.app",
+      description: "Production server (Railway)",
+    },
+  ]
+  ,
   components: {
     securitySchemes: {
       bearerAuth: {
